@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<meta charset="utf-8">
+		<link rel="shortcut icon" href="../../../images/header2.png"/>
+		<link rel="stylesheet" type="text/css" href="../../../style/style.css"/>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<script src="https://kit.fontawesome.com/c07b64e0f7.js" crossorigin="anonymous"></script>
+		<title>Mummie sul Web</title>
+	</head>
+<body>
+<!-- header -->
+		<header> 
+			<a href="../../../index.html"><img src="../../../images/header2.png" alt="Logo Mummy" title="Logo sito"></a>
+		</header>
+		<!-- navbar -->
+		<nav>
+			<div class="navbar">
+  				<a href="../../../index.html">Home</a>
+  				<div class="subnav">
+    				<button class="subnav_btn">Catalogo</button>
+    				<div class="subnav_content">
+      					<a href="../catalogue.html">Tutti</a>
+     					<a href="../timeline.html">Per Datazione</a>
+      					<a href="">Per Aree Geografiche</a>
+      					<a href="../scoperta.html">Per Anno di Scoperta</a>
+    				</div>
+  				</div>
+  				<div class="subnav">
+    				<button class="subnav_btn">Login</button>
+    				<div class="subnav_content">
+      					<a href="../../forms/loginform.html">Accedi</a>
+      					<a href="../../forms/registrationform.html">Registrati</a>
+      					<a href="">Area Personale</a>
+    				</div>
+  				</div>
+  				<div class="subnav">
+    				<button class="subnav_btn">About</button>
+    				<div class="subnav_content">
+      					<a href="">Team</a>
+      					<a href="">Coockies</a>
+      					<a href="">FAQ</a>
+      					<a href="">Contatti</a>
+      					<a href="../../documentation/documentation.html">Documentazione</a>
+    				</div>
+  				</div>
+  				<div class="search-container">
+    				<form action="/action_page.php">
+      					<input type="text" placeholder="Cerca.." name="search">
+      					<button type="submit"><i class="fa fa-search"></i></button>
+    				</form>
+  				</div>
+			</div>
+		</nav>
+		<!-- main -->
+		<main class="catalogue_main">
+			<div class="big_title">
+					<h1>Catalogo completo</h1>
+			</div>
+			<div class="dropdown">
+			  <button onclick="myFunction()" class="dropbtn">Filtra ricerca</button>
+			  <div id="myDropdown" class="dropdown-content">
+			    <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
+				    <a href="../catalogue.html">Tutti</a>
+				    <a href="animalmummies.html">Mummie Animali</a>
+				    <a href="humanmummies.html">Mummie Umane</a>
+				    <a href="egypt.html">Egitto</a>
+				    <a href="">Europa</a>
+				</div>
+			</div>
+			<div class="row_catalogue">
+					<div class="column_cat_item">
+  						<div class="container_cat_item">
+    						<img src="../../../images/similaun2.jpg" style="width:100%" class="catalogue_img">
+							<div class="container_cat_item" style="height: 200px;">
+								<a href="../item/similaun.html" button type="submit" class="insidecardbtn">"Ötzi", La Mummia del Similaun</a></button>
+								<p>Datazione: <strong>3300 - 3100 a.C</strong></p>
+								<p>Luogo di conservazione: <strong>Museo Archeologico dell'Alto Adige, Bolzano (BZ), Italia</strong></p>
+    						</div>
+  						</div>
+  					</div>
+			<div class="column_cat_item">
+				<div class="container_cat_item">
+					<img src="../../../images/marmotta.jpg" style="width:100%" class="catalogue_img">
+    						<div class="container_cat_item" style="height: 200px;">
+    							<a href="" button type="submit" class="insidecardbtn">La Mummia del Lyskamm</a></button>
+    							<p>Datazione: <strong>4.691 - 4.501 a.C.</strong></p>
+    							<p>Luogo di conservazione: <strong>Museo di scienze naturali della Valle d'Aosta, Saint-Pierre (AO), Italia</strong></p>
+					</div>
+				</div>
+			</div>
+		</div>
+		</main>
+		<!-- footer -->
+		<footer>
+			<div class="row_footer">
+			<!-- Citazione -->
+				<div class="footer_col">
+					<div>
+						<p>“Non è morto ciò che in eterno può attendere, e col volgere di strani eoni, anche la morte può morire.”</p>
+						<h3>HOWARD PHILLIPS LOVECRAFT</h3>
+					</div>
+					<div>
+						<h3 style="padding-top: 5%;">Seguici anche su</h3>
+						<a href="https://www.instagram.com/mummie_sul_web/"><i class="fa-brands fa-instagram"></i></a>
+					</div>
+				</div>
+			<!-- Magg. Info + Lingua -->
+				<div class="footer_col">
+					<h3 class="footer_title">Maggiori informazioni</h3>
+					<ul>
+						<li><a href="">Su di noi</a></li>
+						<li><a href="">Diventa un fornitore di contenuti</a></li>
+						<li><a href="">Iscriviti alla newsletter</a></li>
+					</ul>
+					<div class="copyright">
+						<p>© Copyright <strong>MummieSulWeb</strong>.</p><p>All Rights Reserved</p>
+					</div>	
+				</div>
+				<div class="footer_col">
+				<!-- Aiuto -->
+					<h3 class="footer_title">Aiuto</h3>
+						<ul>
+							<li><a href="">Aiuto</a></li>
+							<li><a href="">Termini di utilizzo</a></li>
+							<li><a href="">Informativa sulla privacy</a></li>
+							<li><a href="">Accessibilità</a></li>
+							<li><a href="">Coockies</a></li>
+							<li><a href="">Domande frequenti</a></li>
+						</ul>
+				</div>		
+  			</div>
+		</footer>
+		<script src="../../../js/script.js"></script>
+	</body>
+</html>
